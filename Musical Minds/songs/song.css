@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#Top_songs h2{
+    margin-bottom: 0px;
+}
+
+#songs h2{
+    margin: 0px;
+    padding: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+    font-size: 3.2rem;
+    font-weight: 1200;
+    background: rgb(76,75,83);
+    background: linear-gradient(90deg, rgba(76,75,83,1) 0%, rgba(24,24,79,1) 100%, rgba(0,212,255,1) 100%);
+    color: whitesmoke;
+}
+
+#songs div{
+    /* background-color: rgb(2,0,36); */
+    background-color: black;
+    padding-bottom: 1.5rem;
+}
+
+/* Important for nav bar
+@media screen and (max-width: 580px){
+    nav{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .Login{
+        margin-left: 0;
+    }
+} */
+
+@media screen and (max-width:670px){
+    html{
+        font-size: 50%;
+    }
+    #songs iframe{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:580px){
+    html{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width:500px){
+    html{
+        font-size: 25%;
+    }
+    #songs iframe{
+        height: 200px;
+    }
+}

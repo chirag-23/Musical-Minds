@@ -1,0 +1,51 @@
+<!-- Use FontAwesome + FontAwesome_cheatsheet , Pexels -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Musical Minds | Login</title>
+    <script src="https://kit.fontawesome.com/a14b7281a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../favicon_io/android-chrome-512x512.png" alt="OnlineMeal.com">
+        </div>
+        <a href="../index.html">Home</a> <!-- a tag is used for link -->
+        <a href="../songs/song.html">Top Songs</a>
+        <a href="../Artists/artist.html">Top Artists</a>
+        <a href="./login.html" class="Login">Login</a>
+        <a href="../Sign-up/Sign-up.html">Sign-Up</a> <!-- # implies empty -->
+    </nav>
+    <h1>Login to Musical Minds</h1>
+    <div class="container">
+        <div class="box">
+            <i class="fa fa-user fa-lg"></i>
+            <input type="email" id="email" placeholder="Enter your Email ID">
+        </div>
+        <div class="box">
+            <i class="fa fa-key fa-lg"></i>
+            <input type="password" id="password" placeholder="Enter your Password">
+        </div>
+        <button type="submit" class="btn" onclick="func()">Sign In</button>
+    </div>
+    <script>
+        function func(){
+            window.location.href="../index.html";
+        }
+    </script>
+</body>
+</html>

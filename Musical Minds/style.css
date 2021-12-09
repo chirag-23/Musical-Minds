@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0px; 
+    /* It removes default margin */
+}
+
+html{
+    font-size: 62.5%;
+    /* 10px and default 1rem=16px */
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.Banner{
+    background-image: url(/Images/Banner.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 39rem;
+    z-index: -1;
+    opacity: 0.9;
+    min-height: 30rem;
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* Background will be fixed */
+} 
+
+#logo img{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 50%;
+}
+
+header{
+    color: cornsilk;
+    text-align: center;
+    height: 30rem;
+}
+h1{
+    padding-top: 8.5vw;
+    font-size: 10rem;
+    font-weight: 1000;
+    font-family:fantasy , Arial, Helvetica, sans-serif;
+}
+.Banner p{
+    font-size: 2.5rem;
+    font-family:fantasy , Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+    /* To make it to centre width */
+    /* justify-content:center; */
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(87, 87, 87);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar a:hover{
+    color: rgb(50, 213, 235);
+    background-color: hsla(0, 0%, 0%, 0.35);
+    border-radius: 1rem;
+}
+.Login{
+    margin-left: auto;
+}
+
+h2{
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+h2 span{
+    padding: 1.5rem ;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    /* Search linear-gradient css and copy code */
+    background: rgb(76,75,83);
+    background: linear-gradient(90deg, rgba(76,75,83,1) 0%, rgba(24,24,79,1) 100%, rgba(0,212,255,1) 100%);
+    color: cornsilk;
+    font-size: 3rem;
+    border-radius: 20px;
+}
+img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+main{
+    text-align: center;
+    padding-bottom: 8rem;
+}
+h3{
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    margin: 2rem 0px 3rem;
+}
+
+/* Carousel Plugin --> search flickity carousel*/
+.carousel-cell {
+    width: 70%;
+    height: 30rem;
+    margin-right: 20px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+.iframe-container {
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+} 
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 95%;
+}
+
+.handle a{
+    background-color: rgb(94, 158, 160 , 30%);
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    margin: .5rem 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.handle a:hover{
+    background-color: rgb(30, 30, 30 , 25%);
+}
+.handle a i{
+    margin: 1rem;
+}
+/* Google color of icons */
+.ln{
+    color: #0077b5;
+}
+.insta{
+    color: #8a3ab9;
+}
+.github{
+    color: rgb(47, 47, 47);
+}
+.spotify{
+    color: #1DB954;
+}
+
+footer div{
+    position: absolute;
+    width: 100%;
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.8rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+}
+
+/* Important for nav bar
+@media screen and (max-width: 500px){
+    nav{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .Login{
+        margin-left: 0;
+    }
+} */
+
+@media screen and (max-width:670px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:580px){
+    html{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width:500px){
+    html{
+        font-size: 25%;
+    }
+}
+

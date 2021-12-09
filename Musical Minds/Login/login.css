@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    color: darkcyan;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1.5vw;
+    font-size: 7rem;
+    font-weight: 1000;
+    font-family:fantasy , Arial, Helvetica, sans-serif;
+    border-bottom: beige 4px solid;
+}
+
+.box i{
+    font-size: 3rem;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.box input{
+    width: 40%;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    font-size: 2rem;
+    background: none;
+    border-bottom: burlywood 2px solid;
+    color: darkcyan;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 2.2rem;
+    padding: 10px 40px;
+    background-color: rgb(87, 87, 87);
+    opacity: 0.3;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+    font-size: 2.3em;
+    color: rgb(50, 213, 235);
+    background-color: hsla(0, 0%, 0%, 0.35);
+    font-weight: bold;
+    opacity: 1;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .Login{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:420px){
+    html{
+        font-size: 40%;
+    }
+}
