@@ -20,11 +20,11 @@ The website is based on Music. Check the Website ~ https://musicalminds.netlify.
 
 ![Screenshot 2021-12-09 at 6 17 56 PM](https://user-images.githubusercontent.com/76790227/145435842-1308234f-4667-4afd-86f4-08a8110d30b3.png)
 
-### Sign-Up Page
+### Log-In Page
 
 ![Screenshot 2021-12-09 at 6 18 10 PM](https://user-images.githubusercontent.com/76790227/145435992-3ec0f20b-bdc3-4f1c-b876-f30a353fadef.png)
 
-### Log-In Page
+### Sign-Up Page
 
 ![Screenshot 2021-12-09 at 6 18 31 PM](https://user-images.githubusercontent.com/76790227/145436144-ebe67644-4826-4e54-b41d-95090763d20e.png)
 
